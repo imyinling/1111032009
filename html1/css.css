@@ -1,0 +1,47 @@
+a {
+    color: white;
+    text-decoration:none;
+    font-size: 20px;
+}
+
+.a1 {
+    color: #243135;
+    text-decoration:none;
+    font-size: 30px;
+}
+header {
+    width: auto;
+    height: 13.5vh;
+    
+    
+    background-color:#ffc0cb;
+
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.title {
+    margin-left: 50px;
+    flex-grow: 1;
+    text-align: left;
+
+    color: white;
+    font-size: 35px;
+}
+
+.title-icon-group {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home,.all,.sort {
+    margin: 5px;
+    color: white;
+    padding-top: 45px;
+}
+
+
